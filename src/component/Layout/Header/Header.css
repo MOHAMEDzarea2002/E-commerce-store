@@ -1,0 +1,45 @@
+:root{
+  --main-color:#0090f0;
+  --p-color:#7b7b7b;
+  --bg_color:#f3f3f3;
+  --white_color:#fff;
+  --color_heading:#253237;
+  --border_color:#d6d6d6d5;
+}
+/* TopHeader */
+.card:hover .cart_heart {
+    right: 5px;
+}
+.Header_icons {
+    position: relative;
+    cursor: pointer;
+}
+.Header_icons .icon .count {
+    position: absolute;
+    top: -9px;
+    font-weight: bold;
+}
+
+.Header_icons .icon:first-child .count {
+    left: 16px;
+    
+}
+
+.Header_icons .icon:last-child .count {
+    right: -5px;
+
+}
+
+@media (width >  767px) {
+    .link_header{
+        left: 20px !important;
+        height: 0px !important;
+        background-color: transparent;
+        color: white;
+}
+}
+input:focus{
+    border: none;
+    /* background-color: red; */
+    outline: none;
+}

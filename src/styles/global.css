@@ -1,0 +1,51 @@
+/* messageAddCart */
+.messageAddCart::before{
+    content: '';
+    position: absolute;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    -webkit-animation: progress-mass 3s infinite;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(39, 39, 39, 0.541);
+    animation: progress-mass 3s infinite;
+}
+.ListProduct{
+    max-height: 5000px ;
+
+}
+/* Section Category */
+.Category .viewMore{
+    max-height: 7000px ;
+        @media (max-width:600px) {
+            max-height: 6600px ;
+     }
+}
+.Category .viewLess{
+     max-height: 900px ;
+
+        @media (max-width:600px) {
+            max-height: 2660px ;
+     }
+}
+
+
+/* messageAddCart */
+@keyframes progress-mass {
+    0%{
+    width: 100%;
+    }
+    30%{
+    width: 90%;
+    }
+    60%{
+    width: 60%;
+    }
+    90%{
+    width: 30%;
+
+    }
+    100%{
+    width: 0%;
+    }
+}
