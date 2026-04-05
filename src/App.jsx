@@ -15,7 +15,7 @@ import AllProducts from "./page/AllProducts";
 import { Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <header className="fixed z-40 w-full ">
         <TopHeader />
         <BottomHeader />
